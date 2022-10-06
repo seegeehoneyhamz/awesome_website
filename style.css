@@ -1,0 +1,94 @@
+body{
+    font-family:'roboto' sans-serif;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+*{
+    border: 2px solid magenta;
+    
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 8px;;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    
+    gap: 16px;
+    padding:0;
+    margin:0;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+   
+}
+.content1 {
+    display: flex;
+    justify-content: center;
+}
+
+.content1-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    flex: 1;
+    padding: 0px 8px;
+}
+
+.content1-left .main-text{
+    flex: 2;
+}
+
+.content1-left button{
+    flex-shrink: 0;
+    width: 200px;
+
+}
+
+.content1-left .secondary-text{
+    flex:1;
+}
+.image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero,
+.footer {
+    background-color: #1F2937;
+    color: white;
+}
+.hero .main-text{
+    font-size:48px;
+    color: #F9FAF8;
+    font-family: ;
+}
+
+.secondary-text,
+li a {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.logo-text {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    font-style: italic;
+    font-size: 36px;
+    color: #1F2937;
+}
